@@ -6,9 +6,7 @@ namespace AssigmentOOP4
 {
     internal interface ITrackable
     {
-        public interface ITrackable
-        {
-            string GetTrackingStatus();
-        }
+        string GetTrackingStatus();
+        
     }
 }

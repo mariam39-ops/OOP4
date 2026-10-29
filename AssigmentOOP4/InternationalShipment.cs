@@ -71,8 +71,8 @@ namespace AssigmentOOP4
         }
         //override from interface
         public decimal CalculateInsurance()
-        {
-            return EstimatedCost * 0.12m;
-        }
+{
+    return EstimatedCost * 0.12m;
+}
     }
 }
