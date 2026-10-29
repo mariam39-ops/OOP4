@@ -18,6 +18,21 @@
 
             #endregion
 
+            //q8
+            //q1
+            DeliveryAddress d = new DeliveryAddress();
+            StandaredShipment s1 = new StandaredShipment("333","cloth",55,44.90m,d);
+            //q2
+            ExpressShipment e1 = new ExpressShipment("88", "laptops", 80m, 88.99m, d, 888);
+            //q3
+            InternationalShipment i = new InternationalShipment("88", "laptops", 80m, 88.99m, d, "5%", 99.77m);
+            //q3
+            DeliveryCenter del = new DeliveryCenter("mm");
+            del.AddShipment(s1);
+            del.AddShipment(e1);
+            del.AddShipment(i);
+            //q4
+            del.PrintAllShipment();
         }
     }
 }
